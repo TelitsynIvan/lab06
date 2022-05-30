@@ -2,7 +2,7 @@ name: packing
 on:
   push:
     tags:
-      - "solver_*"
+      - solver_**
 
 jobs:
   
