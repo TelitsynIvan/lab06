@@ -71,6 +71,7 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           tag: ${{ steps.tag_version.outputs.new_tag }}
+          artifacts: "*.deb; *.rpm"
           name: Release
         
   pack_macos:
